@@ -1,0 +1,66 @@
+body {
+  font-family: "Raleway", Arial, sans-serif
+}
+
+#streamers {
+  padding: 30px;
+}
+
+.text{
+  margin-top: 15px;
+}
+
+a:hover { 
+  color: white;
+}
+
+.col{
+  height: 60px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.col-8 p{
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-style: italic;
+  padding-right: 20px;
+}
+
+.col-4{
+  text-align: right;
+  padding-right: 20px;
+}
+
+.row{
+  margin-top: 10px;
+}
+
+.heading{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  overflow: hidden;
+}
+
+.online{
+  background: #00ADEF;
+}
+
+.offline{
+  background: #999999;
+}
+
+.logo{
+  height: 100px;
+  width: 100px;
+  border: 3px #dddddd solid;
+  border-radius: 50%;
+  float: left;
+}
+
+#footer {
+  padding-top: 50px;
+}
